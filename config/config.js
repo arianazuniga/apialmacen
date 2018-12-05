@@ -8,7 +8,7 @@ module.exports={
 			host:'mydbalmacen.coqbcv5ezi7s.us-east-2.rds.amazonaws.com',
 			dialect:'mysql',
 			pool:{
-				maxConnections:5,
+				maxConnections:10,
 				minConnections:0,
 				maxIdleTime:1000
 			}
